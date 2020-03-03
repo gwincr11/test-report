@@ -1,0 +1,2 @@
+2020-03-02 17:50:32 UTC,2020-03-03 17:49:32 UTC,,2020-03-03 11:50:32 -0600
+id,nwo,task,created_at,environment,branch,pr_url,user,room,ci_status,commented_reviews_count,approved_review_count,rejected_reviews_count,dismissed_reviews_count,forced,reason,compliant
