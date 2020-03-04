@@ -1,0 +1,30 @@
+Deployment audit log, version 0579bbe4b5e2b3e2cd40da8da00f7749cd8be73b
+Run at 2020-03-04 12:16:32 -0600, reporting from 2020-03-03 18:16:31 UTC to 2020-03-04 18:15:31 UTC
+Log output records all report output, but not commit and uploading debug data.
+For full log data, visit http://heaven.localhost/report_outputs/28
+----------LOG BEGINS HERE----------
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git init --quiet" at=run
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git init --quiet" at=exit status=0
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git config --local gc.auto 0" at=run
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git config --local gc.auto 0" at=exit status=0
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git config --local gc.autopacklimit 0" at=run
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git config --local gc.autopacklimit 0" at=exit status=0
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git fetch --prune https://github.com/gwincr11/test-report \\+refs/heads/master:refs/remotes/origin/master" at=run
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=fetch path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:31 UTC" command="git fetch --prune https://github.com/gwincr11/test-report \\+refs/heads/master:refs/remotes/origin/master" at=exit status=0
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=checkout path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:32 UTC" command="git --work-tree /Users/rufo/github/heaven/tmp/repositories/deployment_audit_report/audit checkout --force origin/master" at=run
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=checkout path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:32 UTC" command="git --work-tree /Users/rufo/github/heaven/tmp/repositories/deployment_audit_report/audit checkout --force origin/master" at=exit status=0
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=local_repository fn=checkout path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report time="2020-03-04 18:16:32 UTC" command="git --work-tree /Users/rufo/github/heaven/tmp/repositories/deployment_audit_report/audit checkout --force origin/master" at=output out="Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  ef71e51 'add audit file'
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> ef71e51
+
+HEAD is now at 153d53b Initial commit
+"
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=deployment_audit_report fn=generate_csv from="2020-03-03T18:16:31Z" to="2020-03-04T18:15:31Z" command=deployments
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=deployment_audit_report fn=generate_csv from="2020-03-03T18:16:31Z" to="2020-03-04T18:15:31Z" command=generate_csv file_path=/Users/rufo/github/heaven/tmp/repositories/deployment_audit_report/audit/03-03-2020-03-04-2020-audit.csv
+routine="Building Deployment Audit Report" from_timestamp="2020-03-03T18:16:31Z" to_timestamp="2020-03-04T18:15:31Z" ns=deployment_audit_report fn=generate_csv from="2020-03-03T18:16:31Z" to="2020-03-04T18:15:31Z" command=deployments
