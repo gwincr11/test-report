@@ -1,0 +1,73 @@
+Created new output in job, looked for id 
+output_id , room: , mention: 
+Building report for time period 2020-06-24 16:01:50 -0400 - 2020-06-25 16:00:50 -0400
+ns=deployment_audit_report fn=initialize time="2020-06-25 20:01:50 UTC" at="Setting up Octokit for hubot"
+ns=update_repository branch_name=audit-run-external06-25-2020-0401 fn=create_new_branch remote=gwincr11/test-report time="2020-06-25 20:01:50 UTC" at="Creating branch audit-run-external06-25-2020-0401 in gwincr11/test-report"
+ns=update_repository branch_name=audit-run-external06-25-2020-0401 fn=create_new_branch remote=gwincr11/test-report time="2020-06-25 20:01:50 UTC" at="Branch Created"
+ns=update_repository branch_name=audit-run-external06-25-2020-0401 fn=create_new_branch remote=gwincr11/test-report time="2020-06-25 20:01:50 UTC" at='{:ref=>"refs/heads/audit-run-external06-25-2020-0401",
+ :node_id=>
+  "MDM6UmVmMjQzODI0ODMzOnJlZnMvaGVhZHMvYXVkaXQtcnVuLWV4dGVybmFsMDYtMjUtMjAyMC0wNDAx",
+ :url=>
+  "https://api.github.com/repos/gwincr11/test-report/git/refs/heads/audit-run-external06-25-2020-0401",
+ :object=>
+  {:sha=>"153d53bfa91b01a9d9e3d9edd3376b788abe1155",
+   :type=>"commit",
+   :url=>
+    "https://api.github.com/repos/gwincr11/test-report/git/commits/153d53bfa91b01a9d9e3d9edd3376b788abe1155"}}
+'
+ns=deployment_audit_report fn=generate_csv time="2020-06-25 20:01:51 UTC" at="Building external CSV Deployment Audit Report"
+ns=deployment_audit_report fn=generate_csv time="2020-06-25 20:01:51 UTC" at="Found 0 missing audits"
+ns=deployment_audit_report fn=generate_csv time="2020-06-25 20:01:51 UTC" at="Completed the external csv generation"
+ns=update_repository fn=add_files time="2020-06-25 20:01:51 UTC" branch_name=audit-run-external06-25-2020-0401 remote=gwincr11/test-report at="Adding file audit-external.csv to repo"
+ns=update_repository fn=add_files time="2020-06-25 20:01:51 UTC" branch_name=audit-run-external06-25-2020-0401 remote=gwincr11/test-report at="File Created"
+ns=update_repository fn=add_files time="2020-06-25 20:01:51 UTC" branch_name=audit-run-external06-25-2020-0401 remote=gwincr11/test-report at='{:content=>
+  {:name=>"audit-external.csv",
+   :path=>"Reports/PR_audit/external/06-24-2020-06-25-2020/audit-external.csv",
+   :sha=>"a3bb34a7e726d7cdfa7eb0627529fb800eaad79e",
+   :size=>146,
+   :url=>
+    "https://api.github.com/repos/gwincr11/test-report/contents/Reports/PR_audit/external/06-24-2020-06-25-2020/audit-external.csv?ref=audit-run-external06-25-2020-0401",
+   :html_url=>
+    "https://github.com/gwincr11/test-report/blob/audit-run-external06-25-2020-0401/Reports/PR_audit/external/06-24-2020-06-25-2020/audit-external.csv",
+   :git_url=>
+    "https://api.github.com/repos/gwincr11/test-report/git/blobs/a3bb34a7e726d7cdfa7eb0627529fb800eaad79e",
+   :download_url=>
+    "https://raw.githubusercontent.com/gwincr11/test-report/audit-run-external06-25-2020-0401/Reports/PR_audit/external/06-24-2020-06-25-2020/audit-external.csv",
+   :type=>"file",
+   :_links=>
+    {:self=>
+      "https://api.github.com/repos/gwincr11/test-report/contents/Reports/PR_audit/external/06-24-2020-06-25-2020/audit-external.csv?ref=audit-run-external06-25-2020-0401",
+     :git=>
+      "https://api.github.com/repos/gwincr11/test-report/git/blobs/a3bb34a7e726d7cdfa7eb0627529fb800eaad79e",
+     :html=>
+      "https://github.com/gwincr11/test-report/blob/audit-run-external06-25-2020-0401/Reports/PR_audit/external/06-24-2020-06-25-2020/audit-external.csv"}},
+ :commit=>
+  {:sha=>"7650eb7cd67a5873483d92f6efb5f3a849768e90",
+   :node_id=>
+    "MDY6Q29tbWl0MjQzODI0ODMzOjc2NTBlYjdjZDY3YTU4NzM0ODNkOTJmNmVmYjVmM2E4NDk3NjhlOTA=",
+   :url=>
+    "https://api.github.com/repos/gwincr11/test-report/git/commits/7650eb7cd67a5873483d92f6efb5f3a849768e90",
+   :html_url=>
+    "https://github.com/gwincr11/test-report/commit/7650eb7cd67a5873483d92f6efb5f3a849768e90",
+   :author=>
+    {:name=>"Cory Gwin",
+     :email=>"gwincr11@github.com",
+     :date=>2020-06-25 20:01:51 UTC},
+   :committer=>
+    {:name=>"Cory Gwin",
+     :email=>"gwincr11@github.com",
+     :date=>2020-06-25 20:01:51 UTC},
+   :tree=>
+    {:sha=>"f7ebd7a6f3519f4002ddddd111d880f6cd00398e",
+     :url=>
+      "https://api.github.com/repos/gwincr11/test-report/git/trees/f7ebd7a6f3519f4002ddddd111d880f6cd00398e"},
+   :message=>"added audit-external.csv",
+   :parents=>
+    [{:sha=>"153d53bfa91b01a9d9e3d9edd3376b788abe1155",
+      :url=>
+       "https://api.github.com/repos/gwincr11/test-report/git/commits/153d53bfa91b01a9d9e3d9edd3376b788abe1155",
+      :html_url=>
+       "https://github.com/gwincr11/test-report/commit/153d53bfa91b01a9d9e3d9edd3376b788abe1155"}],
+   :verification=>
+    {:verified=>false, :reason=>"unsigned", :signature=>nil, :payload=>nil}}}
+'
